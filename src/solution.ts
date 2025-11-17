@@ -174,27 +174,16 @@ type Product = {
   discount?: number;
 };
 
-// const calculateTotalPrice = (products: Product[]) => {
-//   return products.reduce((total, item) => {
-//     const totalPrice = item.price * item.quantity;
-//     const totalFinalPriceWithDiscount = item.discount
-//       ? totalPrice - (totalPrice * item.discount) / 100
-//       : totalPrice;
+const calculateTotalPrice = (products: Product[]) => {
+  return products.reduce((total, item) => {
+    const totalPrice = item.price * item.quantity;
+    const totalFinalPriceWithDiscount = item.discount
+      ? totalPrice - (totalPrice * item.discount) / 100
+      : totalPrice;
 
-//     return total + totalFinalPriceWithDiscount;
-//   }, 0);
-// };
-
-function calculateTotalPrice(products: Product[]): number {
-  return products.reduce((total, product) => {
-    const basePrice = product.price * product.quantity;
-    const finalPrice = product.discount
-      ? basePrice - (basePrice * product.discount) / 100
-      : basePrice;
-
-    return total + finalPrice;
+    return total + totalFinalPriceWithDiscount;
   }, 0);
-}
+};
 
 const products = [
   { name: "Pen", price: 10, quantity: 2 },
