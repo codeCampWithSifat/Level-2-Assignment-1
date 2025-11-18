@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![TYPESCRIPT](https://img.shields.io/badge/typescript%2Fui-black?style=for-the-badge&logo=typescript&logoColor=white)
+![TYPESCRIPT](https://img.shields.io/badge/typescript%2-black?style=for-the-badge&logo=typescript&logoColor=white)
 </div>
 
 
