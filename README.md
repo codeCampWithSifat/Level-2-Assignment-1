@@ -13,14 +13,10 @@
 </div>
 
 
-## 🔗 Project Demo & Source Code
+## <a name="introduction">🤖  TypeScript-এ interface এবং type অনেকক্ষেত্রে একইরকম ব্যবহার করা যায়, তবে তাদের মধ্যে কিছু গুরুত্বপূর্ণ পার্থক্য আছে </a>
 
-🚀 **Live Demo**: [Click here to view the project](https://next-ecommerce-beta-mocha.vercel.app)
 
-#### Admin Login
-- Email: admin@gmail.com 
-- Password: Admin@2025 
-- OTP: 123456
+
 
 
 ---
